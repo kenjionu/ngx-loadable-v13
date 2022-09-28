@@ -1,22 +1,28 @@
 {
   "name": "ngx-loadable",
-  "version": "3.0.0-next.12",
+  "version": "4.0.0",
   "description": "ngx-loadable: Simpler Lazy Loading Non Routable Angular Modules",
-  "keywords" :["Angular", "Lazy Loading", "Library"],
-  "license" : "MIT",
+  "keywords": [
+    "Angular",
+    "Lazy Loading",
+    "Library"
+  ],
+  "license": "MIT",
   "schematics": "./schematics/collection.json",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/mohammedzamakhan/ngx-loadable"
+    "type": "git",
+    "url": "https://github.com/mohammedzamakhan/ngx-loadable"
   },
-  "homepage" : "https://mohammedzamakhan.github.io/ngx-loadable/",
+  "homepage": "https://mohammedzamakhan.github.io/ngx-loadable/",
   "dependencies": {
-    "@angular-devkit/core": "8.3.6",
-    "@angular-devkit/schematics": "8.3.6"
+    "@angular-devkit/core": "14.2.3",
+    "@angular-devkit/schematics": "14.2.3"
   },
   "peerDependencies": {
-    "@angular/common": ">9.0.0",
-    "@angular/core": ">9.0.0"
+    "@angular/common": "14.2.3",
+    "@angular/core": "14.2.3"
   },
-  "whitelistedNonPeerDependencies": ["."]
+  "allowedNonPeerDependencies": [
+    "."
+  ]
 }

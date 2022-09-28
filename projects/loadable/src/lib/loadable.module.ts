@@ -1,5 +1,5 @@
 import { NgModule, Inject, Optional, InjectionToken, ANALYZE_FOR_ENTRY_COMPONENTS } from '@angular/core';
-import { ModuleWithProviders } from '@angular/compiler/src/core';
+import { ModuleWithProviders } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { LoadableComponent } from './loadable.component';
@@ -15,7 +15,7 @@ import { ModulesConfig, ExtraOptions, ILoadableRootConfig, ILoadableConfig } fro
   exports: [LoadableComponent]
 })
 export class LoadableModule {
-  static forRoot(config: ILoadableRootConfig = {}): ModuleWithProviders  {
+  static forRoot(config: ILoadableRootConfig = {}): ModuleWithProviders<any>  {
     return {
       ngModule: LoadableModule,
       providers: [
@@ -27,7 +27,7 @@ export class LoadableModule {
     };
   }
 
-  static forFeature(config: ILoadableConfig = {}): ModuleWithProviders {
+  static forFeature(config: ILoadableConfig = {}): ModuleWithProviders<any> {
     return {
       ngModule: LoadableModule,
       providers: [

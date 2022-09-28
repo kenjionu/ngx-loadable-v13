@@ -10,7 +10,7 @@
       "prefix": "ngx",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-ng-packagr:build",
+          "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
             "tsConfig": "projects/ngx-loadable/tsconfig.lib.json",
             "project": "projects/ngx-loadable/ng-package.json"
@@ -174,7 +174,7 @@
       "prefix": "ngx",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-ng-packagr:build",
+          "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
             "tsConfig": "projects/loadable/tsconfig.lib.json",
             "project": "projects/loadable/ng-package.json"
