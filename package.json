@@ -46,7 +46,7 @@
     "ngx-highlightjs": "^3.0.3",
     "ngx-perimeter": "^0.0.1",
     "rxjs": "~6.5.5",
-    "tslib": "^1.10.0",
+    "tslib": "^2.4.0",
     "zone.js": "~0.10.1"
   },
   "devDependencies": {
